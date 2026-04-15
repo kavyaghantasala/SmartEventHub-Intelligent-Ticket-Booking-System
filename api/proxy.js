@@ -3,7 +3,7 @@ export default async function handler(req, res) {
   
   // Construct the target URL with all query parameters
   const queryString = new URLSearchParams(queryParams).toString();
-  const targetUrl = `https://happy-pumas-scream.loca.lt/api/${path}${queryString ? '?' + queryString : ''}`;
+  const targetUrl = `https://smart-event-hub.loca.lt/api/${path}${queryString ? '?' + queryString : ''}`;
   
   console.log(`Proxying to: ${targetUrl}`);
 
