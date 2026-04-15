@@ -2,7 +2,6 @@ services:
   - type: web
     name: smart-event-hub-backend
     runtime: docker
-    dockerContext: backend
     dockerfilePath: Dockerfile
     envVars:
       - key: SPRING_PROFILES_ACTIVE
