@@ -28,3 +28,5 @@ backend/target/
 backend/.mvn/
 backend/mvnw
 backend/*.log
+
+.vercel

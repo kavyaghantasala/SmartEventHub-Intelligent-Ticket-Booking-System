@@ -20,6 +20,12 @@ const EventDetailsPage = () => {
     }
   }, [id]);
 
+  const handleBookTickets = (formData) => {
+    const totalAmount = formData.tickets * event.price;
+    const newAvailable = event.availableTickets - formData.tickets;
+    
+    setEvent(prev => ({ ...prev, availableTickets: newAvailable, bookedSeats: [...(prev.bookedSeats || []), ...formData.selectedSeats] }));
+
     const userProfile = JSON.parse(localStorage.getItem('smart_user_profile') || '{}');
     const summary = {
       ...formData,
