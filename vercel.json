@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://happy-pumas-scream.loca.lt/api/$1"
+      "destination": "/api/proxy?path=$1"
     }
   ]
 }
