@@ -32,7 +32,12 @@ SmartEventHub is a modern, full-stack event management and ticket booking applic
 - Node.js 18 or higher
 - Maven 3.9+
 
-### Backend Setup
+### Quick Start (Automated)
+If you are on Windows, you can start both the backend and the tunnel with a single click:
+- Run the `start-app.bat` file in the root directory.
+- Keep the two windows that open running while you use the app.
+
+### Manual Backend Setup
 1. Navigate to the `backend` directory.
 2. Run the Spring Boot application:
    ```bash
