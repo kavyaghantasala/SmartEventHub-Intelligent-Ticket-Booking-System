@@ -1,16 +1,62 @@
-# React + Vite
+# SmartEventHub - Intelligent Ticket Booking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SmartEventHub is a modern, full-stack event management and ticket booking application built with React and Spring Boot. It features user-specific ticket isolation, a sleek dark-themed UI, and a robust backend.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Event Discovery**: Browse upcoming tech events, workshops, and conferences.
+- **Intelligent Booking**: Select your own seats and book tickets with a streamlined checkout flow.
+- **User Isolation**: Securely manage your own tickets. Different users only see their specific bookings.
+- **Admin Dashboard**: Specialized access for managing events and viewing global bookings.
+- **Digital Tickets**: View and manage your tickets with unique tracking IDs.
+- **Modern UI**: Built with a premium dark aesthetic using vanilla CSS and Lucide icons.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+- **React 19**: Modern UI development.
+- **Vite**: Ultra-fast build tool and dev server.
+- **Vanilla CSS**: Custom-crafted premium design system.
+- **Lucide React**: Clean and consistent iconography.
 
-## Expanding the ESLint configuration
+### Backend
+- **Spring Boot 3.4.0**: Robust Java-based backend framework.
+- **Spring Data JPA**: Efficient database management and ORM.
+- **H2 Database**: High-performance in-memory database for development.
+- **Maven**: Project management and build automation.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation & Setup
+
+### Prerequisites
+- Java 17 or higher
+- Node.js 18 or higher
+- Maven 3.9+
+
+### Backend Setup
+1. Navigate to the `backend` directory.
+2. Run the Spring Boot application:
+   ```bash
+   mvn spring-boot:run
+   ```
+   The backend will start at `http://localhost:8080`.
+
+### Frontend Setup
+1. Navigate to the root directory.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+   The frontend will be available at `http://localhost:5173`.
+
+## 🌐 Deployment
+
+- **Frontend**: Deployed on [Vercel](https://ticket-booking-fawn-alpha.vercel.app).
+- **GitHub**: Source code hosted at [kavyaghantasala/SmartEventHub](https://github.com/kavyaghantasala/SmartEventHub-Intelligent-Ticket-Booking-System).
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
