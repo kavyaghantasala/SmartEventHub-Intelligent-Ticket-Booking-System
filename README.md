@@ -54,7 +54,8 @@ SmartEventHub is a modern, full-stack event management and ticket booking applic
 
 ## 🌐 Deployment
 
-- **Frontend**: Deployed on [Vercel](https://ticket-booking-fawn-alpha.vercel.app).
+- **Frontend Home**: [https://ticket-booking-fawn-alpha.vercel.app](https://ticket-booking-fawn-alpha.vercel.app)
+- **Admin Dashboard**: [https://ticket-booking-fawn-alpha.vercel.app/admin](https://ticket-booking-fawn-alpha.vercel.app/admin)
 - **GitHub**: Source code hosted at [kavyaghantasala/SmartEventHub](https://github.com/kavyaghantasala/SmartEventHub-Intelligent-Ticket-Booking-System).
 
 ## 📄 License
