@@ -1,7 +1,12 @@
 export default async function handler(req, res) {
-  const { path } = req.query;
-  const targetUrl = `https://happy-pumas-scream.loca.lt/api/${path}`;
+  const { path, ...queryParams } = req.query;
   
+  // Construct the target URL with all query parameters
+  const queryString = new URLSearchParams(queryParams).toString();
+  const targetUrl = `https://happy-pumas-scream.loca.lt/api/${path}${queryString ? '?' + queryString : ''}`;
+  
+  console.log(`Proxying to: ${targetUrl}`);
+
   try {
     const response = await fetch(targetUrl, {
       method: req.method,
