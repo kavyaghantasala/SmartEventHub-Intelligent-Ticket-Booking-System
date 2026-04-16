@@ -57,11 +57,6 @@ If you are on Windows, you can start both the backend and the tunnel with a sing
    ```
    The frontend will be available at `http://localhost:5173`.
 
-## 🌐 Deployment
-
-- **Frontend Home**: [https://ticket-booking-fawn-alpha.vercel.app](https://ticket-booking-fawn-alpha.vercel.app)
-- **Admin Dashboard**: [https://ticket-booking-fawn-alpha.vercel.app/admin](https://ticket-booking-fawn-alpha.vercel.app/admin)
-- **GitHub**: Source code hosted at [kavyaghantasala/SmartEventHub](https://github.com/kavyaghantasala/SmartEventHub-Intelligent-Ticket-Booking-System).
 
 ## 📄 License
 
